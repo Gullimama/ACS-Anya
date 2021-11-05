@@ -1,0 +1,40 @@
+{% extends "template.njk" %}
+
+{% block main %}
+
+<div class="sign-page frgt-pass-img bg-img contact-wrapper content-align-center">
+  <div class="container ">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 col-xl-7">
+        <div class="brand text-center pt--40"><a href=""><img src="./image/png/footer-logo.png" alt=""></a></div>
+
+      </div>
+    </div>
+  </div>
+  <div class="form-wrapper ">
+      <div class="anya-form blured-bg-form">
+          <form action="./">
+            <div class="form-title text-center pb--25">
+              <h2 class="title">Forgot Password?</h2>
+              <p>Enter your details to recieve a reset link</p>
+            </div>
+            <div class="form-group">
+              <input class="form-control" type="email" placeholder="Email address">
+            </div>
+            <div class="form-group form-check-label">
+              <label for="tarms-check">
+                <input class="d-none" type="checkbox" id="tarms-check" checked><span class="checkbox"></span>
+                <p>I agree to the <a href=""> Terms &amp; Condition </a></p>
+              </label>
+            </div>
+            <div class="form-group button-block text-center">
+              <button class="form-btn">Get Started</button>
+              <p class="sign-up-text">Remember Password?<a href="">Sign in</a></p>
+            </div>
+          </form>
+      </div>
+    </div>
+</div>
+
+
+{% endblock %}
