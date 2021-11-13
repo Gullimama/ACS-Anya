@@ -1,28 +1,28 @@
 .btn {
   &-height--45{
-    height: 45px!important;
+    height: 35px!important;
   }
   &-width--141{
-    min-width: 141px!important;
+    min-width: 130px!important;
   }
   &-header{
     padding-left: 25px;
     padding-right: 25px;
-    font-size: 16px!important;
-    min-width: 141px!important;  
-    height: 45px!important;
+    font-size: 13px!important;
+    min-width: 110px!important;  
+    height: 37px!important;
   }
   &--primary{
     // width: 252px;
     padding-left: 25px;
     padding-right: 25px;
-    min-width: 200px;
-    height: 60px;
+    min-width: 100px;
+    height: 40px;
     border-radius: 5px;
     border: 1px solid $theme-primary-color;
     background: $theme-primary-color;
     color: #fff;
-    font-size: 21px;
+    font-size: $p;
     font-weight: 500;
     letter-spacing: -0.66px;
     display: inline-flex;
