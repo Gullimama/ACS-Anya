@@ -1,4 +1,3 @@
-
 // Primary-colors
 // $primary-color:  #22b0fc; //color for: Page = 1
 // $primary-color-p3:  #0f53fa; //color for: Page = 3
@@ -13,7 +12,8 @@
 
 // Global variables
 
-$theme-base-font:'CircularStd',sans-serif;
+$theme-base-font:'CircularStd',
+sans-serif;
 
 // Landing1 Fonts and colors
 $l1-primary-font: $theme-base-font;
@@ -125,6 +125,18 @@ $screen-xl: 1200px;
 $screen-xxl: 1366px;
 $screen-xxxl: 1600px;
 
-.bg-whisper{
+// different size of fonts
+$h1:57.33px;
+$h2:47.78px;
+$h3:39.81px;
+$h4:33.18px;
+$h5:27.65px;
+$h6:23.04px;
+$h7:19.20px;
+$p: 16px;
+$font-size:13.33px;
+
+
+.bg-whisper {
   background: #F7F7FB;
 }

@@ -118,13 +118,13 @@
   .review-star{
     margin-bottom: 17px;
     i{
-      font-size: 21px;
+      font-size: $h7;
       color: #fedc5a;
     }
   }
   p{
     color: #fff;
-    font-size: 21px;
+    font-size: $h7;
     font-weight: 300;
     letter-spacing: -0.66px;
     line-height: 39px;
@@ -132,7 +132,7 @@
   }
   .user-name{
     color: rgba(255, 255, 255, 0.7);
-    font-size: 16px;
+    font-size: $p;
     font-weight: 300;
     letter-spacing: -0.5px;
     line-height: 28px;

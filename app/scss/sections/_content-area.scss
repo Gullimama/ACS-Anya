@@ -974,16 +974,16 @@
     font-weight: 700;
     letter-spacing: -1.88px;
     padding-bottom: 20px;
-    font-size: 40px;
+    font-size: $h3;
     line-height: 50px;
     @include mobile-lg{
-      font-size: 60px;
+      font-size: $h1;
       line-height: 70px;
     }
   }
   p{
     color: $l7-primary-text;
-    font-size: 21px;
+    font-size: $h7;
     font-weight: 300;
     letter-spacing: -0.66px;
     line-height: 39px;
@@ -1008,20 +1008,20 @@
       justify-content: center;
       align-items: center;
       color: #fff;
-      font-size: 24px;
+      font-size: $h6;
       font-weight: 700;
       letter-spacing: -0.75px;
      }
      .w-title{
       color: $l7-primary-heading;
-      font-size: 21px;
+      font-size: $h7;
       font-weight: 700;
       letter-spacing: -0.66px;
       margin-bottom: 15px;
      }
      p{
       color: $l7-primary-text;
-      font-size: 16px;
+      font-size: $p;
       font-weight: 300;
       letter-spacing: -0.5px;
       line-height: 28px;
@@ -1130,11 +1130,11 @@
       color: #19191b;
       font-weight: 700;
       letter-spacing: -2.5px;
-      font-size: 34px;
+      font-size: $h4;
       line-height: 46px;
       @include tablet{
-        font-size: 80px;
-        line-height: 84px;
+        font-size: $h1;
+        line-height: 74px;
       }
       @include desktops{
         margin-right: 40px;
@@ -1144,7 +1144,7 @@
     }
     p{
       color: #696871;
-      font-size: 21px;
+      font-size: $h7;
       font-weight: 300;
       letter-spacing: -0.66px;
       line-height: 39px;

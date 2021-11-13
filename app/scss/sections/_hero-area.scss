@@ -22,13 +22,13 @@
      
       margin-right: 15px;
       i{
-        font-size: 16px;
+        font-size: $p;
         color: #fff;
       }
     }
     p{
       color: #fff;
-      font-size: 16px;
+      font-size: $p;
       font-weight: 300;
       letter-spacing: -0.5px;
       margin-bottom: 0;
@@ -74,7 +74,7 @@
       margin-right: 15px;
       margin-top: 8px;
       i{
-        font-size: 16px;
+        font-size: $p;
         color: #fff;
       }
     }
@@ -83,13 +83,13 @@
       .date{
         opacity: 0.48;
         color: $l1-primary-heading;
-        font-size: 14px;
+        font-size: $font-size;
         font-weight: 300;
         letter-spacing: -0.44px;
       }
       p{
         color: $l1-primary-heading;
-        font-size: 21px;
+        font-size: $p;
         font-weight: 300;
         letter-spacing: -0.66px;
         margin-bottom: 0;
@@ -115,7 +115,7 @@
     color: $l1-primary-heading;
     font-weight: 700;
     letter-spacing: -2.81px;
-    font-size: 50px;
+    font-size: $h2;
     line-height: 56px;
     margin-bottom: 30px;
     @include mobile-lg {
@@ -166,15 +166,15 @@
       text-align: right;
     }
     img{
-      max-width: 80%;
+      max-width: 100%;
       @include brk-point(400px){
-        max-width: 50%;
+        max-width: 100%;
       }
       @include mobile-lg{
-        max-width: 60%;
+        max-width: 100%;
       }
       @include desktops{
-        max-width: 100%;
+        max-width: 80%;
       }
     }
   }
@@ -214,34 +214,37 @@
 }
 .omga-01__hero-content {
   padding-right: 60px;
+  @include large-desktops {
+    margin-left: 75px;
+  }
   .title {
     color: $l1-primary-heading;
     font-family: $l1-primary-font;
-    font-weight: 700;
-    letter-spacing: -2.81px;
-    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: -1.81px;
+    font-size: $h3;
     line-height: 56px;
     margin-bottom: 30px;
     @include mobile-lg {
-      font-size: 66px;
+      font-size: $h2;
       line-height: 70px;
     }
     @include desktops {
-      font-size: 76px;
+      font-size: $h1;
       line-height: 84px;
     }
     @include large-desktops {
-      font-size: 68px;
-      line-height: 84px; 
+      font-size: $h2;
+      line-height: 62px;
     }
   }
   p {
     color: $l1-primary-text;
     font-family: $l1-primary-font;
-    font-size: 21px;
+    font-size: $p;
     font-weight: 300;
     letter-spacing: -0.66px;
-    line-height: 39px;
+    line-height: 29px;
   }
   .hero-btn {
     margin-top: 34px;
@@ -252,7 +255,7 @@
   .video-link {
     color: $l1-secondary-color;
     font-family: $l1-primary-font;
-    font-size: 16px;
+    font-size: $font-size;
     font-weight: 500;
     letter-spacing: -0.5px;
     margin-top: 12px;
@@ -1026,17 +1029,17 @@
       font-family: $theme-primary-font;
       font-weight: 700;
       letter-spacing: -2.81px;
-      font-size: 50px;
+      font-size: $h2;
       line-height: 56px;
       margin-bottom: 28px;
       @include tablet{
-        font-size: 60px;
+        font-size: $h1;
         line-height: 70px;
       }
     }
     p {
       color: $l7-primary-heading;
-      font-size: 21px;
+      font-size: $h7;
       font-weight: 300;
       letter-spacing: -0.66px;
       line-height: 39px;
@@ -1075,7 +1078,7 @@
         position: absolute;
         top: 27px;
         left:27px;
-        font-size: 19px;
+        font-size: $p;
         color: #cdccd9;
         margin-top: -2px;
 
@@ -1104,11 +1107,11 @@
       width: 200px;
       @include tablet{
         max-width: 140px;
-        font-size: 18px;
+        font-size: $p;
       }
       @include desktops{
         max-width: 140px;
-        font-size: 19px;
+        font-size: $p;
       }
       @include brk-point(500px){
           position: absolute;

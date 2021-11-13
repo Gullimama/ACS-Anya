@@ -63,13 +63,13 @@
     }
   }
   .dropdown{
-    // &.show,&~.show{
-    //   >.dropdown-toggle{
-    //     &:after{
-    //       transform: rotate(0deg);
-    //     }
-    //   }
-    // }
+    &.show,&~.show{
+      >.dropdown-toggle{
+        &:after{
+          transform: rotate(0deg);
+        }
+      }
+    }
     
   }
 }
@@ -98,7 +98,7 @@
   }
   >.drop-menu-item{
     color: #19191b;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 300;
     letter-spacing: -0.5px;
     padding-left: 30px ;

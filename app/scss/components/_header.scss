@@ -30,7 +30,7 @@
       >.nav-link{
         @include desktops{
           color: #353638!important;
-          font-size: 16px;
+          font-size: $font-size;
           font-weight: 500;
           line-height: 24px;
           padding-top: 18px!important;
@@ -244,17 +244,13 @@
       background: #fff;
     }
   }
-  .landing-3{
-    
-  }
+ 
   .landing-4{
     .sticky-header.reveal-header{
       background: #5454d4;
     }
   }
-  .landing-5{
-    
-  }
+ 
   .landing-6{
     .sticky-header.reveal-header{
       background: #fff;
@@ -265,10 +261,7 @@
       background: #fff;
     }
   }
-  .landing-8{
-   
-  }
-
+ 
   .header-1{
     .header-btns{
       margin-right: 10px;
