@@ -85,14 +85,14 @@
 .contact-widget-block{
 .title{
   color: #19191b;
-  font-size: 24px;
+  font-size: $h6;
   font-weight: 700;
   letter-spacing: -0.75px;
   line-height: 1
 }
 p{
   color: #696871;
-  font-size: 21px;
+  font-size: $h7;
   font-weight: 300;
   letter-spacing: -0.66px;
   line-height: 39px;
@@ -104,21 +104,21 @@ p{
     color: #19191b;
     font-weight: 700;
     letter-spacing: -2.5px;
-    font-size: 34px;
+    font-size: $h4;
     line-height: 46px;
     margin-bottom: 15px;
     @include tablet{
-      font-size: 80px;
-      line-height: 84px;
+      font-size: $h1;
+      line-height: 64px;
       margin-bottom: 30px;
     }
   }
   p{
     color: #696871;
-    font-size: 21px;
+    font-size: $h7;
     font-weight: 300;
     letter-spacing: -0.66px;
-    line-height: 39px;
+    line-height: 29px;
   }
 }
 

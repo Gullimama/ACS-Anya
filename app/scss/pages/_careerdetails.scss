@@ -31,15 +31,15 @@
   }
   .block-title{
     color: $theme-primary-heading;
-    font-size: 21px;
+    font-size: $h7;
     font-weight: 700;
-    line-height: 34px;
+    line-height: 24px;
   }
   .skill-list{
     li{
       color: $theme-primary-text;
       list-style: none;
-      font-size: 16px;
+      font-size: $p;
       font-weight: 300;
       line-height: 20px;
       padding-top: 12.5px;
@@ -63,7 +63,7 @@
   }
   p{
     color: $theme-primary-text;
-    font-size: 16px;
+    font-size: $p;
     font-weight: 300;
     line-height: 28px;
     margin-bottom: 15px;
@@ -79,7 +79,7 @@
     padding-bottom: 30px;
     .location{
       color: #8C97AC;
-      font-size: 16px;
+      font-size: $p;
       font-weight: 300;
       margin-right: 5px;
       display: flex;
@@ -90,7 +90,7 @@
     .badge{
       height: 30px;
       border-radius: 5px;
-      font-size: 13px;
+      font-size: $font-size;
       font-weight: 300;
       display: flex;
       align-items: center;
@@ -122,11 +122,11 @@
       font-weight: 700;
       letter-spacing: -1px;
       margin-bottom: 75px;
-      font-size: 34px;
-      line-height: 46px;
+      font-size: $h4;
+      line-height: 36px;
       @include tablet{
-        font-size: 80px;
-        line-height: 85px;
+        font-size: $h1;
+        line-height: 75px;
       }
     }
   }
