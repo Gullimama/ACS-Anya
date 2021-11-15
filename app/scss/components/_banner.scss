@@ -48,19 +48,19 @@
       letter-spacing: -2.5px;
       line-height: 1;
       margin-bottom: 15px;
-      font-size: 34px;
-      line-height: 46px;
+      font-size: $h4;
+      line-height: 36px;
       @include tablet{
         margin-bottom: 32px;
-        font-size: 80px;
+        font-size: $h2;
       }
     }
     p{
       color: #696871;
-      font-size: 21px;
+      font-size: $p;
       font-weight: 300;
       letter-spacing: -0.66px;
-      line-height: 39px;
+      line-height: 29px;
     }
   }
  
@@ -70,7 +70,7 @@
   padding-bottom: 30px;
   @include tablet{
     padding-top: 100px;
-    padding-bottom: 80px;
+    padding-bottom: $h1;
   }
   .banner-content{
     .title{
@@ -81,14 +81,14 @@
       line-height: 46px;
       padding-bottom: 12;
       @include tablet{
-        font-size: 80px;
+        font-size: $h1;
         line-height: 84px;
         padding-bottom: 22px;
       }
     }
     p{
       color: #696871;
-      font-size: 21px;
+      font-size: $h7;
       font-weight: 300;
       letter-spacing: -0.66px;
       line-height: 39px;

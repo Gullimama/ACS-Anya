@@ -31,10 +31,10 @@
         .name {
           color: $l1-primary-heading;
           font-family: $l1-primary-font;
-          font-size: $h7;
+          font-size: $p;
           font-weight: 700;
           letter-spacing: -0.66px;
-          line-height: 28px;
+          line-height: 18px;
         }
         .company {
           color: $l1-primary-text;
@@ -59,17 +59,17 @@
     .review-text {
       color: $l1-primary-heading;
       font-family: $l1-primary-font;
-      font-size: $h7;
+      font-size: $p;
       font-weight: 300;
       letter-spacing: -0.66px;
-      line-height: 39px;
+      line-height: 29px;
       .secondary-text {
         color: $l1-secondary-color;
         font-family: $l1-primary-font;
-        font-size: $h7;
+        font-size: $p;
         font-weight: 300;
         letter-spacing: -0.66px;
-        line-height: 39px;
+        line-height: 29px;
       }
     }
   }
