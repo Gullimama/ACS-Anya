@@ -2,46 +2,67 @@
 
 
 
-  /*~~~~Feature Area styling 1~~~~~*/ 
+  /*~~~~Feature Area styling 1~~~~~*/
 
   .omga-01__feature-section {
     background: $l1-secondary-color;
     // color: #fff;
     position: relative;
-    .shape-1{
+
+    .shape-1 {
       position: absolute;
       top: 0;
       right: 0px;
-      
+
     }
-    .shape-2{
+
+    .shape-2 {
       position: absolute;
       bottom: -10px;
       left: 0;
       width: 100%;
+
       img {
         width: 100%;
       }
     }
-    
+
     .feature-content {
       .title {
         color: #fff;
         margin-bottom: 25px;
+        margin-top: 40px;
+        @include mobile-lg {
+          margin-top: 15px;
+        }
+        @include tablet {
+          margin-top: 15px;
+        }
+        @include desktops{
+          margin-top: 0px;
+        }
+        @include large-desktops {
+          margin-top: 0px;
+        }
       }
+
       p {
         color: rgba(255, 255, 255, 0.7);
       }
+
       .content-btn {
         margin-top: 35px;
+        margin-bottom: 10px;
       }
     }
   }
+
   .feature-card--01 {
     padding: 25px 30px 12px;
     border-radius: 10px;
     background-color: #ffffff;
     transition: .4s;
+
     .card-icon {
       width: 69px;
       height: 69px;
@@ -51,23 +72,28 @@
       justify-content: center;
       font-size: 28px;
       margin-bottom: 22px;
+
       &.red {
         background-color: rgba($l1-primary-color, 0.1);
         color: $l1-primary-color;
       }
+
       &.yellow {
         background-color: rgba(254, 220, 90, 0.1);
         color: $theme-yellow-color;
       }
+
       &.blue {
         background-color: rgba(84, 84, 212, 0.1);
         color: $l1-secondary-color;
       }
+
       &.ash {
         background-color: rgba(65, 62, 101, 0.1);
         color: $theme-ash-color;
       }
     }
+
     .card-text {
       .title {
         color: $l1-primary-heading;
@@ -77,6 +103,7 @@
         letter-spacing: -0.75px;
         margin-bottom: 16px;
       }
+
       p {
         color: $l1-primary-text;
         font-family: $l1-primary-font;
@@ -86,34 +113,37 @@
         line-height: 28px;
       }
     }
+
     &:hover {
       box-shadow: 0 52px 54px rgba(65, 62, 101, 0.3);
     }
   }
 
-  /*~~~~Feature Area styling 2~~~~~*/ 
+  /*~~~~Feature Area styling 2~~~~~*/
 
   .omga-02_ {
     &_feature-section {
       background: $l2-secondary-color;
       position: relative;
-      
+
       .feature-content {
         .title {
           color: #fff;
           margin-bottom: 25px;
         }
+
         p {
           font-size: 21px;
           color: rgba(255, 255, 255, 0.7);
         }
+
         .content-btn {
           margin-top: 35px;
         }
       }
     }
   }
-  
+
   .feature-widget--2 {
     border-radius: 10px;
     border: 1px solid #eae9f2;
@@ -123,10 +153,12 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+
     @include tablet {
       width: 399px;
       min-width: 389px;
     }
+
     .widget-icon {
       flex-basis: auto;
       width: 69px;
@@ -137,26 +169,32 @@
       justify-content: center;
       font-size: 30px;
       margin-right: 20px;
+
       &.red {
         color: $l2-primary-color;
         background-color: rgba(240, 64, 55, 0.1);
       }
+
       &.yellow {
         background-color: rgba(254, 220, 90, 0.1);
         color: $theme-yellow-color;
       }
+
       &.blue {
         background-color: rgba(84, 84, 212, 0.1);
         color: $l2-secondary-color;
       }
+
       &.ash {
         background-color: rgba(65, 62, 101, 0.1);
         color: $l2-secondary-color;
       }
-      
+
     }
+
     .widget-text {
       flex-basis: calc(100% - 100px);
+
       .title {
         color: $theme-primary-heading;
         font-family: $theme-primary-font;
@@ -165,6 +203,7 @@
         letter-spacing: -0.75px;
         margin-bottom: 16px;
       }
+
       .sub-title {
         color: $theme-primary-text;
         font-family: $theme-primary-font;
@@ -176,16 +215,18 @@
     }
   }
 
-  /*~~~~Feature Area styling 3~~~~~*/ 
+  /*~~~~Feature Area styling 3~~~~~*/
 
-  .omga-03__feature-section{
-    .video-image{
+  .omga-03__feature-section {
+    .video-image {
       position: relative;
-      img{
+
+      img {
         box-shadow: 0 42px 54px rgba(0, 0, 0, 0.31);
         border-radius: 10px;
       }
-      a{
+
+      a {
         font-size: 22px;
         background-color: #5454D4;
         border-radius: 500px;
@@ -199,26 +240,31 @@
         color: #fff;
         width: 64px;
         height: 64px;
-        @include mobile-lg{
+
+        @include mobile-lg {
           width: 100px;
           height: 100px;
         }
-        @include tablet{
+
+        @include tablet {
           width: 124px;
           height: 124px;
         }
       }
     }
   }
-  .feature-widget--3{
+
+  .feature-widget--3 {
     text-align: center;
     padding-left: 25px;
     padding-right: 25px;
-    @include large-desktops{
+
+    @include large-desktops {
       padding-left: 35px;
       padding-right: 35px;
     }
-    .widget-icon{
+
+    .widget-icon {
       min-width: 69px;
       max-width: 69px;
       min-height: 69px;
@@ -229,23 +275,27 @@
       border-radius: 500px;
       margin-bottom: 17px;
       font-size: 26px;
-      &.bg{
-        &-red{
+
+      &.bg {
+        &-red {
           background-color: rgba(240, 64, 55, 0.1);
           color: #f04037;
         }
-        &-blue{
+
+        &-blue {
           background-color: rgba(84, 84, 212, 0.1);
           color: #5454d4;
         }
-        &-yellow{
+
+        &-yellow {
           background-color: rgba(254, 220, 90, 0.1);
           color: #fedc5a;
         }
       }
     }
-    .widget-text{
-      .title{
+
+    .widget-text {
+      .title {
         display: block;
         // color: #FFFFFF;
         font-size: 24px;
@@ -253,14 +303,16 @@
         letter-spacing: -0.75px;
         margin-bottom: 14px;
       }
-      p{
+
+      p {
         // color: rgba(255, 255, 255, 0.7);
         // font-family: "Circular Std";
         font-size: 16px;
         font-weight: 300;
         letter-spacing: -0.5px;
         line-height: 28px;
-        &:last-child{
+
+        &:last-child {
           margin-bottom: 0;
         }
       }
@@ -268,90 +320,102 @@
   }
 
 
-/*~~~~Feature Area styling 5~~~~~*/ 
-.omga-05_ {
-  &_feature-section{
+  /*~~~~Feature Area styling 5~~~~~*/
+  .omga-05_ {
+    &_feature-section {
+      padding-top: 47px;
+      padding-bottom: 23px;
+      border-bottom: 1px solid #EAE9F2;
+      background: #fff;
+
+      @include tablet {
+        padding-top: 87px;
+        padding-bottom: 63px;
+      }
+    }
+  }
+
+  .feature-widget--5 {
+    .widget-icon {
+      margin-bottom: 48px;
+    }
+
+    .widget-texts {
+      .title {
+        color: $l5-primary-heading;
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: -0.75px;
+        padding-bottom: 13px;
+      }
+
+      p {
+        color: $l5-primary-text;
+        font-size: 16px;
+        font-weight: 300;
+        letter-spacing: -0.5px;
+        line-height: 28px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+
+  /*~~~~Feature Area styling 6~~~~~*/
+
+  .omga-06__feature-section {
     padding-top: 47px;
     padding-bottom: 23px;
-    border-bottom: 1px solid #EAE9F2;
-    background: #fff;
-   @include tablet{
-    padding-top: 87px;
-    padding-bottom: 63px;
-   }
-  }
-}
-.feature-widget--5{
-  .widget-icon{
-    margin-bottom: 48px;
-  }
-  .widget-texts{
-    .title{
-      color: $l5-primary-heading;
-      font-size: 24px;
-      font-weight: 700;
-      letter-spacing: -0.75px;
-      padding-bottom: 13px;
+    border-bottom: 1px solid #eae9f2;
+    background: #f6f6f8;
+
+    @include tablet {
+      padding-top: 87px;
+      padding-bottom: 63px;
     }
-    p{
-      color: $l5-primary-text;
-      font-size: 16px;
-      font-weight: 300;
-      letter-spacing: -0.5px;
-      line-height: 28px;
-      &:last-child{
-        margin-bottom: 0;
+  }
+
+  .feature-widget--6 {
+    .widget-icon {
+      margin-bottom: 48px;
+    }
+
+    .widget-texts {
+      .title {
+        color: $l6-primary-heading;
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: -0.75px;
+        padding-bottom: 13px;
+      }
+
+      p {
+        color: $l6-primary-text;
+        font-size: 16px;
+        font-weight: 300;
+        letter-spacing: -0.5px;
+        line-height: 28px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
       }
     }
   }
-}
 
 
-/*~~~~Feature Area styling 6~~~~~*/ 
+  /*~~~~Feature Area styling 7~~~~~*/
+  .feature-widget--7 {
+    display: flex;
 
-.omga-06__feature-section{
-  padding-top: 47px;
-  padding-bottom: 23px;
-  border-bottom: 1px solid #eae9f2;
-  background: #f6f6f8;
-  @include tablet{
-  padding-top: 87px;
-  padding-bottom: 63px;
-  }
-}
-.feature-widget--6{
-  .widget-icon{
-    margin-bottom: 48px;
-  }
-  .widget-texts{
-    .title{
-      color: $l6-primary-heading;
-      font-size: 24px;
-      font-weight: 700;
-      letter-spacing: -0.75px;
-      padding-bottom: 13px;
-    }
-    p{
-      color: $l6-primary-text;
-      font-size: 16px;
-      font-weight: 300;
-      letter-spacing: -0.5px;
-      line-height: 28px;
-      &:last-child{
-        margin-bottom: 0;
-      }
-    }
-  }
-}
-
-
-/*~~~~Feature Area styling 7~~~~~*/ 
-.feature-widget--7 {
-  display: flex;
-  @include desktops {
+    @include desktops {
       margin-bottom: 0;
-  }
-  .widget__icon {
+    }
+
+    .widget__icon {
       position: relative;
       min-width: 62px;
       min-height: 62px;
@@ -362,22 +426,24 @@
       align-items: center;
       margin-bottom: 35px;
       margin-right: 25px;
-      .inner-circle {
-          width: 14px;
-          height: 14px;
-          border-radius: 50%;
-      }
-      
-      .outer-circle {
-          width: 62px;
-          height: 62px;
-          border-radius: 50%;
-          position: absolute;
-      }
-  }
 
-  .widget__body {
+      .inner-circle {
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+      }
+
+      .outer-circle {
+        width: 62px;
+        height: 62px;
+        border-radius: 50%;
+        position: absolute;
+      }
+    }
+
+    .widget__body {
       text-align: left;
+
       p {
         color: #696871;
         font-size: 16px;
@@ -385,12 +451,12 @@
         letter-spacing: -0.5px;
         line-height: 28px;
       }
-  }
-  .widget__heading {
+    }
+
+    .widget__heading {
       color: #19191b;
       font-weight: 700;
       margin-bottom: 15px;
       font-size: 24px;
+    }
   }
-}
-
