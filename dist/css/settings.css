@@ -137,15 +137,14 @@ input[type="number"] {
 
 @media (min-width: 768px) {
   .section-padding {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 120px;
+    padding-bottom: 60px;
   }
 }
 
 @media (min-width: 992px) {
   .section-padding {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-bottom: 40px;
   }
 }
 
