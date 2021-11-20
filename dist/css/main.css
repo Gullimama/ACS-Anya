@@ -26575,11 +26575,12 @@ p {
 
 .omga-07__hero-image img {
   max-width: 80%;
+  margin-left: 35px;
 }
 
 @media (min-width: 400px) {
   .omga-07__hero-image img {
-    max-width: 50%;
+    max-width: 80%;
   }
 }
 
@@ -26719,8 +26720,8 @@ p {
   .omga-07__hero-form button {
     position: absolute;
     margin-top: 0px;
-    top: 5px;
-    right: 0px;
+    top: 16px;
+    right: 6px;
     margin-right: 5px;
   }
 }
@@ -28668,7 +28669,7 @@ p {
 
 @media (min-width: 400px) {
   .omga-07__content-image img {
-    max-width: 50%;
+    max-width: 80%;
   }
 }
 
