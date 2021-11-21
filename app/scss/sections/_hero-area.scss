@@ -1191,9 +1191,10 @@
   .omga-07__hero-image {
     img {
       max-width: 80%;
-
+      margin-left: 35px;
+      
       @include brk-point(400px) {
-        max-width: 50%;
+        max-width: 80%;
       }
 
       @include mobile-lg {
@@ -1313,8 +1314,8 @@
       @include brk-point(500px) {
         position: absolute;
         margin-top: 0px;
-        top: 5px;
-        right: 0px;
+        top: 16px;
+        right: 6px;
         margin-right: 5px;
       }
     }
