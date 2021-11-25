@@ -36,7 +36,7 @@
   // text-align: center;
   &.white{
     .title{
-      color: #fff;
+      color: #ffffff;
     }
     p{
       color: rgba(255, 255, 255, 0.7);
@@ -62,7 +62,7 @@
     @include desktops {
       font-size: $h3;
       line-height: 54px;
-      width: 415px;
+      // width: 415px;
     }
   }
   p{
@@ -73,7 +73,7 @@
     letter-spacing: -0.66px;
     line-height: 29px;
     @include desktops{
-      width: 400px;
+      // width: 400px;
     }
   }
 }
