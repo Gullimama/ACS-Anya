@@ -26999,10 +26999,12 @@ p {
 }
 
 .feature-card--01 {
-  padding: 25px 30px 12px;
+  padding: 25px 15px 12px 15px;
   border-radius: 10px;
   background-color: #ffffff;
   transition: .4s;
+  width: 255px;
+  height: 255px;
 }
 
 .feature-card--01 .card-icon {
@@ -27052,6 +27054,7 @@ p {
   font-weight: 300;
   letter-spacing: -0.5px;
   line-height: 28px;
+  width: 250px;
 }
 
 .feature-card--01:hover {
