@@ -32,15 +32,19 @@
         color: #fff;
         margin-bottom: 25px;
         margin-top: 40px;
+
         @include mobile-lg {
           margin-top: 15px;
         }
+
         @include tablet {
           margin-top: 15px;
         }
-        @include desktops{
+
+        @include desktops {
           margin-top: 0px;
         }
+
         @include large-desktops {
           margin-top: 0px;
         }
@@ -58,10 +62,12 @@
   }
 
   .feature-card--01 {
-    padding: 25px 30px 12px;
+    padding: 25px 15px 12px 15px;
     border-radius: 10px;
     background-color: #ffffff;
     transition: .4s;
+    width: 255px;
+    height: 255px;
 
     .card-icon {
       width: 69px;
@@ -111,6 +117,7 @@
         font-weight: 300;
         letter-spacing: -0.5px;
         line-height: 28px;
+        width: 250px;
       }
     }
 
